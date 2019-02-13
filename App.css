@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.song-tree {
+  height: 500px;
+  margin: 5% 20% 5% 20%;
+  background-image: url("./assets/song-tree.jpeg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.song-circles{
+  position: relative;
+}
+
+.song-choice {
+  position: relative;
+  float: right;
+  border: 3px solid green;
+  text-align: center;
+
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.troll-circle {
+  top: 20px;
+  left: 100px;
+}
+
+.twinkle_circle {
+  top: 0px;
+  left: 120px;
+}
+
+.kumbayah-circle{
+  top: 20px;
+  left: 140px;    
+}
+
+.wolf-circle{
+  top: 130px;
+  left: 0px;    
+}
+
+.videvisan-circle{
+  top: 120px;
+  left: -220px;    
+}
+
+.byssan-lull-circle{
+  top: 80px;
+  left: -70px;    
+}
+
+.majas-visa-circle{
+  top: 30px;
+  left: -50px;    
+}
+
+.brahms-vaggvisa-circle{
+  top: 130px;
+  left: -60px;    
+}
+
+.john-blund-circle{
+  top: 140px;
+  left: 0px;    
+}
+
+.slumra-stilla-circle{
+  top: 90px;
+  left: 10px;    
+}
+
+.sound-element{
+
+}
+
+.song-figure{
+}
