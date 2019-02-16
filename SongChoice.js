@@ -1,7 +1,8 @@
 import React from 'react';
-import {Animated} from 'react-native';
+import {TouchableOpacity, Image} from 'react-native';
+import styles from './Style.js';
 
-export default class SongChoice extends React.Component {
+class SongChoice extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -17,3 +18,5 @@ export default class SongChoice extends React.Component {
     )
   }
 }
+
+export default SongChoice;

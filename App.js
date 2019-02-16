@@ -1,32 +1,15 @@
 import React from 'react';
-import {Platform, StyleSheet, Text, View, ImageBackground, TouchableOpacity, Dimensions, Image} from 'react-native';
+import {View, ImageBackground, TouchableOpacity, Dimensions, Image} from 'react-native';
 import styles from './Style.js';
 import Sound from 'react-native-sound';
 import PickedSong from './PickedSong';
-//import {SongChoice} from './SongChoice.js';
+import SongChoice from './SongChoice';
 
 const dimensions = Dimensions.get('window');
 const halfScreenHeight = Math.round(dimensions.height)/2;
 const squareHeight = Math.round(halfScreenHeight/3);
 const squareWidth = Math.round(dimensions.width/3);
 const roundingPos = 20;
-
-class SongChoice extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render (){
-    return (
-        <TouchableOpacity 
-          style={[styles.song_choice, {top:this.props.song.top, left:this.props.song.left}]}
-          onPress={() => this.props.onPress(this.props.song.song)}
-        >
-          <Image style={styles.img_size} source={this.props.song.img}/>
-        </TouchableOpacity>  
-    )
-  }
-}
 
 class SongController extends React.Component {
   constructor(props){
