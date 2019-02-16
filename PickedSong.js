@@ -8,7 +8,7 @@ class PickedSong extends React.Component {
     super(props);
   
     this.state = {
-      image: this.props.image,
+      image: null,
       fadeAnim: new Animated.Value(0),
     };
   }
