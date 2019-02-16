@@ -1,4 +1,7 @@
-class SongChoice extends React.Component {
+import React from 'react';
+import {Animated} from 'react-native';
+
+export default class SongChoice extends React.Component {
   constructor(props) {
     super(props);
   }

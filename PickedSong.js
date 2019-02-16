@@ -1,3 +1,8 @@
+import React from 'react';
+import {Animated, Image} from 'react-native';
+import styles from './Style.js';
+
+
 class PickedSong extends React.Component {
   constructor(props) {
     super(props);
@@ -47,3 +52,5 @@ class PickedSong extends React.Component {
   }
 
 }
+
+export default PickedSong;
